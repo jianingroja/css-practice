@@ -1,0 +1,15 @@
+div {
+  width: 80%;
+  height: 100vh;
+  background-color: lightblue;
+  text-align: center;
+
+  /* how do we make the div center? */
+  margin: auto;
+  /* margin: 0 0 0 auto; 
+  all the space on the left */
+
+  /* how do we put the text vertically center quickly? */
+  line-height: 100vh;
+  /* same as div height */
+}

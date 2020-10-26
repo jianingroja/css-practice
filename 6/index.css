@@ -1,0 +1,21 @@
+p::selection {
+  background: rgb(177, 7, 7);
+  color: rgb(214, 166, 166);
+}
+
+p::first-letter {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+a {
+  font-size: 5rem;
+  color: rgba(13, 75, 31, 0.822);
+}
+
+html {
+  background: black;
+  /* filter: invert(0); nothing happens */
+  filter: invert(1) hue-rotate(180deg);
+}

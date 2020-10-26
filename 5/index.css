@@ -1,0 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+div,
+section {
+  height: 100vh;
+}

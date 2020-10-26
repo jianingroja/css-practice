@@ -1,0 +1,10 @@
+p::selection {
+  background: rgb(177, 7, 7);
+  color: rgb(214, 166, 166);
+}
+
+p::first-letter {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
