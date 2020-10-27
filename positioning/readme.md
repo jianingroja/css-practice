@@ -1,1 +1,7 @@
-## 渐变字体背景
+## position practice
+
+- static
+- relative
+- absolute
+- fixed
+- sticky
