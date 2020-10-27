@@ -1,0 +1,11 @@
+p {
+  width: 30%;
+}
+
+/* switch between static and sticky */
+nav {
+  background-color: rgb(126, 25, 25);
+  color: white;
+  position: sticky;
+  top: 5px;
+}
