@@ -1,0 +1,29 @@
+p::selection {
+  background: rgb(177, 7, 7);
+  color: rgb(214, 166, 166);
+}
+
+p::first-letter {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+/* 随着屏幕大小调整字号 */
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 55%;
+  }
+}

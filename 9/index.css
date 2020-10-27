@@ -1,0 +1,27 @@
+h1 {
+  font-size: 6rem;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(
+    to right,
+    rgb(4, 110, 110),
+    rgba(23, 146, 79, 0.692),
+    rgba(140, 221, 177, 0.692)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+}
+
+h2 {
+  font-size: 6rem;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(
+    to right,
+    rgb(126, 13, 13),
+    rgba(133, 4, 4, 0.692),
+    rgba(189, 22, 22, 0.76)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
