@@ -1,0 +1,61 @@
+.container {
+  width: 100%;
+  /* if i write 100% here, the div won't be pllaced in center */
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.card-container {
+  width: 200px;
+  height: 300px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  /* background: lightblue; */
+  transition: transform 1s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.card-container:hover .card {
+  transform: rotateY(180deg);
+}
+
+.card figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* important!! */
+  backface-visibility: hidden;
+}
+
+.card .front {
+  background: lightblue;
+  color: white;
+  text-align: center;
+  /* transform: rotateY(180deg); */
+  /* transform: rotateY(0deg); */
+}
+
+.card .back {
+  background: rgb(173, 230, 197);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.back button {
+  background: chocolate;
+  color: white;
+  border: none;
+  padding: 20px;
+}
